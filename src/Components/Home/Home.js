@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import image from '../../Images/Photo/stadium-background.jpg'
 import Details from '../Details/Details';
 import './Home.css'
 
@@ -14,7 +13,7 @@ const Home = () => {
     return (
         <div>
             <div className='banner'>
-                <img src={image} alt="" />
+                <img src='https://resources.news.e.abb.com/images/2018/6/11/0/Luzhniki_Stadium1280X720.jpg' alt="" />
                 <div className='title'><h1>Foootball League 2021</h1></div>
             </div>
             <div className='row leagues'>
