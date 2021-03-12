@@ -1,0 +1,18 @@
+.card-show img{
+    width: 30%;
+}
+.btn{
+    width: 200px;
+}
+body{
+background-color: rgb(15, 104, 15);
+}
+.card-show{
+    margin:30px 0;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 0.5em;
+    box-shadow: 5px 5px 20px rgba(240, 230, 140, 0.739);
+    background-color: rgba(209, 205, 167, 0.767);
+    
+}

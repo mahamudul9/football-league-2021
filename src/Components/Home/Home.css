@@ -1,0 +1,26 @@
+.banner img{
+    height: 300px;
+    width: 100%;
+    opacity: 70%;
+}
+.title{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+.banner{
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    padding-left: 12px;
+}
+h1{
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.leagues{
+    padding-left: 12px;
+    display: flex;
+    justify-content:space-around; 
+}

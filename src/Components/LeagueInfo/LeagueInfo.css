@@ -1,0 +1,44 @@
+.league-banner{
+    padding-bottom: 30px;
+}
+.league-info{
+    text-align: center;
+}
+.first-banner{
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.league-card{
+    display: flex;
+    background-color: greenyellow;
+    width: 900px;
+    text-align: center;
+    padding: 30px 30px;
+    justify-content: space-around;
+    border-radius: 0.5em;
+    margin-left: 200px;
+}
+.league-card img{
+    width: 400px;
+}
+.description p{
+    color: khaki;
+    padding-top: 30px;
+}
+.card-text{
+    text-align: left;
+    font-size: large;
+}
+.social-link img{
+    height: 50px;
+}
+.social-link{
+    padding: 20px 0;
+}
