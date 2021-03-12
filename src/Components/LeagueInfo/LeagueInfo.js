@@ -47,9 +47,9 @@ const LeagueInfo = () => {
                 <p>{link.strDescriptionEN}</p>
             </div> 
             <div className='social-link col'>               
-               <a href='https://twitter.com/premierleague' target="_blank"><img src={twitter} alt=""/></a>
-               <a href='https://en-gb.facebook.com/premierleague' target="_blank"><img src={facebook} alt=""/></a>
-               <a href='https://youtube.com/channel/UCG5qGWdu8nIRZqJ_GgDwQ-w' target="_blank"><img src={youtube} alt=""/></a>               
+               <a href='https://twitter.com/premierleague' rel="noreferrer" target="_blank"><img src={twitter} alt=""/></a>
+               <a href='https://en-gb.facebook.com/premierleague' rel="noreferrer" target="_blank"><img src={facebook} alt=""/></a>
+               <a href='https://youtube.com/channel/UCG5qGWdu8nIRZqJ_GgDwQ-w' rel="noreferrer" target="_blank"><img src={youtube} alt=""/></a>               
             </div>     
         </div>
     );
