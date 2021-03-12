@@ -12,7 +12,7 @@ const Details = (props) => {
         fetch(`https://www.thesportsdb.com/api/v1/json/1/lookupleague.php?id=${idLeague}`)
         .then(res=>res.json())
         .then(data=>setId(data.leagues[0]))
-    },[])
+    },[idLeague])
     console.log(id);
     return (
         <div className='card-show'>

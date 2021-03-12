@@ -16,7 +16,7 @@ const LeagueInfo = () => {
         fetch(`https://www.thesportsdb.com/api/v1/json/1/lookupleague.php?id=${idLeague}`)
             .then(res => res.json())
             .then(data => setLink(data.leagues[0]))
-    }, [])
+    }, [idLeague])
     // console.log(link);
     const setImage=()=>{
         if(link.strGender==='Male'){
